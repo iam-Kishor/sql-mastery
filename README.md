@@ -1,87 +1,76 @@
-# 📊 SQL Practice Repository
+# 🧠 SQL Mastery – Advanced Querying & Data Analysis
 
-A structured collection of SQL scripts and datasets designed to demonstrate practical data analysis, query optimization, and database handling skills.
+A comprehensive SQL project demonstrating advanced querying techniques, data modeling, and real-world analytical problem solving using structured datasets.
 
 ---
 
 ## 🔍 Overview
 
-This repository showcases hands-on SQL practice using real-world-style datasets. It focuses on writing efficient, readable, and scalable queries across different problem scenarios.
+This repository goes beyond basic SQL and focuses on **real-world data scenarios**, including multi-table relationships, analytical queries, and performance-oriented SQL practices.
+
+It reflects practical skills required for **Data Analyst and Data Engineer roles**.
 
 ---
 
-## 🧠 Skills Demonstrated
+## ⚙️ Core Competencies Demonstrated
 
-- Data Retrieval & Filtering
-- Joins (INNER, LEFT, RIGHT, FULL)
-- Aggregations & Grouping
-- Subqueries & Nested Queries
-- Window Functions (RANK, DENSE_RANK, ROW_NUMBER)
-- Data Cleaning & Transformation
-- Analytical Query Writing
+### 🔹 Data Retrieval & Transformation
+- Complex filtering, conditional logic (CASE)
+- Data cleaning and normalization approaches
 
----
+### 🔹 Advanced Joins & Relationships
+- Multi-table joins (INNER, LEFT, FULL)
+- Handling relational dependencies
+- Resolving join anomalies
 
-## 📂 Datasets Description
+### 🔹 Aggregations & Analytical Queries
+- GROUP BY with HAVING
+- Multi-level aggregations
+- Business metric calculations
 
-| Dataset | Description |
-|--------|------------|
-| calendar | Date-based dataset for time analysis |
-| doctors | Doctor details and specialization |
-| patients | Patient records and visits |
-| shopping_behavior | Customer purchase behavior |
+### 🔹 Window Functions (Advanced)
+- RANK(), DENSE_RANK(), ROW_NUMBER()
+- Running totals & partition-based analysis
+- Top-N analysis per group
 
----
+### 🔹 Subqueries & CTEs
+- Nested queries for complex filtering
+- Common Table Expressions for readability & modular logic
 
-## 💻 SQL Work Highlights
-
-- Designed queries to extract meaningful insights from structured datasets  
-- Applied joins to combine multiple tables for relational analysis  
-- Used window functions for ranking and trend analysis  
-- Performed data aggregation for reporting metrics  
-
----
-
-## ⚙️ Tools & Environment
-
-- SQL (MySQL / PostgreSQL / SQL Server compatible)
-- Git & GitHub for version control
+### 🔹 Data Modeling Concepts
+- Schema design and table relationships
+- Handling real-world datasets (healthcare, transactions, etc.)
 
 ---
 
-## ▶️ How to Run
+## 📁 Repository Structure
 
-1. Import datasets into your SQL database  
-2. Open scripts from `/scripts` folder  
-3. Execute queries step-by-step  
-4. Modify queries to explore alternative solutions  
+sql-mastery/
+│
+├── datasets/ # Raw datasets used for analysis
+│ ├── calendar.csv
+│ ├── doctors.csv
+│ ├── patients.csv
+│ ├── shopping_behavior_updated.csv
+│
+├── scripts/ # SQL scripts organized by concepts
+│ ├── joins.sql
+│ ├── aggregations.sql
+│ ├── window_functions.sql
+│ ├── subqueries.sql
+│ ├── case_studies.sql
 
----
-
-## 📈 Roadmap
-
-- [ ] Add advanced window function scenarios  
-- [ ] Include query performance optimization  
-- [ ] Add case-study based SQL problems  
-- [ ] Provide query explanations for each script  
-
----
-
-## 📌 Best Practices Followed
-
-- Clean and readable SQL formatting  
-- Meaningful file naming conventions  
-- Logical folder structure  
-- Separation of data and scripts  
-
----
-
-## 👨‍💻 Author
-
-**Kishor Thadi**
-
----
-
-## ⭐ Support
-
-If you find this repository useful, consider giving it a star.
+sql-mastery/
+│
+├── datasets/ # Raw datasets used for analysis
+│ ├── calendar.csv
+│ ├── doctors.csv
+│ ├── patients.csv
+│ ├── shopping_behavior_updated.csv
+│
+├── scripts/ # SQL scripts organized by concepts
+│ ├── joins.sql
+│ ├── aggregations.sql
+│ ├── window_functions.sql
+│ ├── subqueries.sql
+│ ├── case_studies.sql
