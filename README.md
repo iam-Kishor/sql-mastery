@@ -60,17 +60,57 @@ sql-mastery/
 │ ├── subqueries.sql
 │ ├── case_studies.sql
 
-sql-mastery/
-│
-├── datasets/ # Raw datasets used for analysis
-│ ├── calendar.csv
-│ ├── doctors.csv
-│ ├── patients.csv
-│ ├── shopping_behavior_updated.csv
-│
-├── scripts/ # SQL scripts organized by concepts
-│ ├── joins.sql
-│ ├── aggregations.sql
-│ ├── window_functions.sql
-│ ├── subqueries.sql
-│ ├── case_studies.sql
+
+---
+
+## 📊 Real-World Use Cases Covered
+
+- Patient & doctor data analysis (healthcare domain)
+- Customer behavior analysis
+- Time-based trend analysis
+- Multi-table relational insights
+- Ranking and segmentation problems
+
+👉 These align with real business scenarios like:
+- Customer retention analysis  
+- Operational performance tracking  
+- KPI-based reporting  
+
+---
+
+## 🧪 Query Design Approach
+
+- Focus on **readability and modularity**
+- Use of **CTEs over deeply nested queries**
+- Logical breakdown of complex problems
+- Optimized query patterns where applicable
+
+---
+
+## 🚀 Key Highlights
+
+- Handles **multi-table analytical queries**
+- Demonstrates **advanced SQL constructs**
+- Applies SQL to **real datasets (not toy examples)**
+- Structured like a **data project, not just notes**
+
+---
+
+## 📈 Future Enhancements
+
+- Query optimization using indexing
+- Performance comparison of query strategies
+- Stored procedures & triggers
+- End-to-end case studies
+
+---
+
+## 👨‍💻 Author
+
+**Kishor Thadi**
+
+---
+
+## ⭐ If you find this useful
+
+Consider starring the repo — it helps showcase SQL projects to others.
